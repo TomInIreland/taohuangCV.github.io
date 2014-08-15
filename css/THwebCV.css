@@ -1,0 +1,92 @@
+@charset "utf-8";
+.container {
+	text-align:center;
+	height:100%;
+}
+.cover {
+	height:100%;
+	background-image:url(../image/BX4A0758.jpg);
+	background-position:center center;
+}
+.coverlayer {
+	background-color: #f7f7f7;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.cover:before {
+    border: 1px solid #333;
+    bottom: 30px;
+    content: "";
+    left: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+	z-index:4;
+}
+.name {
+	position:relative;
+	top:30%;
+}
+.cover .container {
+	position:relative;
+	z-index:4;
+}
+.cover .nav {
+	position:relative;
+	z-index:4;
+}
+.cover .container h1 {
+	font-size:4.7em;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+	position:relative;
+	display:inline-block;
+}
+.cover .container h4 {
+	position:relative;
+}
+.cover .container h5 {
+	font-style:italic;
+	bottom:50px;
+	position:fixed;
+	width:100%;
+	left:0;
+	font-weight:bold;
+}
+.cover .nav {
+	position:absolute;
+	bottom:0;
+	left:0;
+	display:block;
+	width:100%;
+	text-align:center;
+	background-color:#333;
+}
+.cover .nav a {
+	color:#FFF;
+}
+.cover .nav > li > a:hover, .cover .nav > li > a:focus {
+	background-color:transparent;	
+}
+.cover .nav .nav-profile > a:hover, .cover .nav .nav-profile > a:focus {
+	color:#428bca;
+}
+.cover .nav .nav-experiences > a:hover, .cover .nav .nav-experiences > a:focus {
+}
+.cover .nav .nav-abilities > a:hover, .cover .nav .nav-abilities > a:focus {
+}
+.cover .nav .nav-interests > a:hover, .cover .nav .nav-interests > a:focus {
+}
+.cover .nav .nav-contact > a:hover, .cover .nav .nav-contact > a:focus {
+}
+.nav > li {
+	display:inline-block;
+}
+.nav-pills > li {
+	float:none;
+}
+
