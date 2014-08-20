@@ -1,9 +1,11 @@
 @charset "utf-8";
 .container {
 	text-align:center;
-	height:100%;
+	padding:40px 180px;;
+	width:100%;
 }
 .cover {
+	background: none no-repeat fixed right center / cover rgba(0, 0, 0, 0);
 	height:100%;
 	background-image:url(../image/BX4A0758.jpg);
 	background-position:center center;
@@ -33,6 +35,7 @@
 	top:30%;
 }
 .cover .container {
+	height:100%;
 	position:relative;
 	z-index:4;
 }
@@ -41,7 +44,7 @@
 	z-index:4;
 }
 .cover .container h1 {
-	font-size:4.7em;
+	font-size:6em;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.45);
 	position:relative;
 	display:inline-block;
@@ -73,20 +76,138 @@
 	background-color:transparent;	
 }
 .cover .nav .nav-profile > a:hover, .cover .nav .nav-profile > a:focus {
-	color:#428bca;
+	color:#FF3C3C;
 }
 .cover .nav .nav-experiences > a:hover, .cover .nav .nav-experiences > a:focus {
+	color:#FF9E3E;
+}
+.cover .nav .nav-projects > a:hover, .cover .nav .nav-projects > a:focus {
+	color:#22a39f;
 }
 .cover .nav .nav-abilities > a:hover, .cover .nav .nav-abilities > a:focus {
+	color:#0080FF;
 }
 .cover .nav .nav-interests > a:hover, .cover .nav .nav-interests > a:focus {
+	color:#6060FF;
 }
 .cover .nav .nav-contact > a:hover, .cover .nav .nav-contact > a:focus {
+	color:#999;
 }
 .nav > li {
 	display:inline-block;
 }
 .nav-pills > li {
 	float:none;
+}
+.fixed .nav {
+	position:fixed;
+	top:0;
+	bottom:auto;
+}
+#profile h2 {
+	font-size:4em;
+	color:#FF3C3C;
+}
+#experiences h2 {
+	font-size:4em;
+	color:#FF9E3E;
+}
+#projects h2 {
+	font-size:4em;
+	color:#22a39f;
+}
+#skills h2 {
+	font-size:4em;
+	color:#0080FF;
+}
+#projects .media {
+	margin-top:0;
+}
+.container hr {
+	border-color: #727878;
+    margin: 40px 0;
+    opacity: 0.2;
+}
+#profile .media .media-body p {
+	text-align:left;
+}
+#profile .media .media-heading {
+	text-align:left;
+	color:#FF3C3C;
+}
+#projects .media .media-body p {
+	text-align:left;
+}
+#projects .media .media-heading {
+	text-align:left;
+	color:#22a39f;
+}
+.gray {
+	background-color:#F6F6F6;
+}
+.profile-photo {
+	padding-top:20px;
+}
+#experiences h3 {
+	text-align:left;
+	color:#FF9E3E;
+}
+.experience {
+	margin-bottom:10px;
+}
+.experience h4 {
+	text-align:left;
+}
+.experience h5 {
+	text-align:left;
+	font-weight:bold;
+	padding-top:5px;
+}
+.experience p {
+	text-align:left;
+}
+.experience .link {
+	text-align:left;
+	color:#FF9E3E;
+}
+.experience .link a {
+	color:#FF9E3E;
+}
+#projects .role {
+	text-align:left;
+	color:#22a39f;
+}
+.projectImg .modal-body img {
+	display: block;
+    height: auto;
+    max-width: 100%;
+}
+.projectImg .modal-header .close {
+	margin-top:-8px;
+}
+.projectImg .modal-dialog {
+	width:800px;
+}
+#skills h3 {
+	text-align:left;
+	color:#0080FF;
+}
+#skills h5 {
+	text-align:left;
+}
+.dark {
+	background-color:#333;
+}
+#contact h2 {
+	font-size:4em;
+	color:#CCC;
+}
+#contact hr {
+	border-color:#CCC;
+    margin: 40px 0;
+    opacity: 0.2;
+}
+#contactDetail {
+	color:#CCC;
 }
 
