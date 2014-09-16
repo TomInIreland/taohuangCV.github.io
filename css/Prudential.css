@@ -1,0 +1,28 @@
+@charset "utf-8";
+.header {
+	border: 1px #b6b6b6 solid;
+	background-color:#ebebeb;
+	height:120px;
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	background-image:url(../image/comp1.jpg);
+}
+.header h1 {
+	color:#b6b6b6;
+}
+.nav-container {
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:20px;
+}
+.footer {
+	border: 1px #b6b6b6 solid;
+	background-color:#ebebeb;
+	height:50px;
+}
+.main {
+	padding-bottom:15px;
+}
+.main p {
+	color:#666;
+}
