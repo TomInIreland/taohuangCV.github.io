@@ -6,6 +6,7 @@
 	background-position:right bottom;
 	background-repeat:no-repeat;
 	background-image:url(../image/comp1.jpg);
+	margin-bottom:20px;
 }
 .header h1 {
 	color:#b6b6b6;
@@ -13,7 +14,6 @@
 .nav-container {
 	padding-left:0px;
 	padding-right:0px;
-	padding-top:20px;
 }
 .footer {
 	border: 1px #b6b6b6 solid;
