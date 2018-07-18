@@ -1,4 +1,5 @@
 // Tao's JavaScript
+
 var lnStickyNavigation;
 
 $(document).ready(function()
